@@ -1,0 +1,47 @@
+﻿html {
+    border: 1px;
+    margin: auto;
+    background-image: url(fondos/fondogaleria.jpg);
+    background-size: cover;
+}
+
+body {
+    background-color: rgba(237, 231, 246, 0.5);
+    margin: 100px;
+    padding: 100px;
+}
+
+p {
+    font-family: Arial;
+    font-size: 20px;
+    text-align: center;
+}
+
+.table, .th, .td {
+    margin: auto;
+    border-collapse: separate;
+    border-spacing: 50px;
+    border-radius: 8px;
+    padding: 60px;
+}
+
+img {
+    width: 300px;
+    height: 250px;
+    border-radius: 8px;
+}
+
+.zoom:hover {
+    transform: scale(3.0);
+}
+
+h1 {
+    font-size: 30px;
+    color: saddlebrown;
+    background-color: blanchedalmond;
+    border: saddlebrown solid 5px;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+}

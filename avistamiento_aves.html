@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Formulario_avistamiento</title>
+    <link rel="stylesheet" type="text/css" href="estiloavistamiento.css">
+</head>
+<body>
+    <h1>Registro de avistamiento de aves</h1>
+    <p>
+        Con motivo de generar un estudio sobre especies y localización de las aves, <br>
+        en el siguiente formulario tenemos la posibilidad de registrar nuestros avistamientos<br /> 
+        así como todos los datos que podamos aportar sobre la especie, el habitat, e incluso
+        adjuntar una imagen.
+    </p>
+
+    
+    <table  width="auto">
+        <tr>
+            <td>
+                <p>
+                    <form action="Manejador.html" method="post">
+                        <fieldset>
+                            <legend>AVISTAMIENTO REALIZADO</legend>
+                            <table cellpading=5>
+                                <tr><td><strong>1.Identificación</strong></td></tr>
+                                <td>
+                                    <fieldset>
+                                        <legend>Datos de el ave</legend>
+                                        <label for="especie">Especie:</label>
+                                        <input type="text" id="especie" size="20" maxlength="40">
+                                        <br><label for="fecha">Fecha</label>
+                                        <input type="text" id="fecha" size="20" maxlength="40">
+                                        <br><small><i>*Formato de fecha: DD/MM/AAAA</i></small>
+                                        <br><label for="color">Color:  </label>
+                                        <input type="text" id="Color" size="20" maxlength="40">
+                                        <br><label for="ColorPico">Color del pico</label>
+                                        <input type="text" id="ColorPico" size="20" maxlength="40">
+                                        <br><label for="ColorPatas">Color de las patas</label>
+                                        <input type="text" id="ColorPico" size="20" maxlength="40">
+
+                                    </fieldset>
+                                </td>
+                                <td>
+                                    <fieldset>
+
+                                        <legend>Tamaño del ave</legend><br>
+                                        <input type="radio" id="pequeño" name="tipo" checked>
+                                        <label for="Pequeño">Pequeño</label><br>
+                                        <input type="radio" id="mediano" name="tipo">
+                                        <label for="Mediano">Mediano</label><br>
+                                        <input type="radio" id="pequeño" name="tipo">
+                                        <label for="Pequeño">Pequeño</label>
+                                    </fieldset>
+                                </td>
+                            </table>
+
+                            <table cellpadding=5>
+                                <tr><td><strong> 2. Localización</strong></td></tr>
+                                <td>
+                                    <fieldset>
+                                        <legend>Lugar de avistamiento</legend>
+                                        <label for="CCAA">Comunidad autonoma</label>
+                                        <input type="text" id="comunidad" size="20" maxlength="40">
+                                        <br><label for="Provincia">Provincia</label>
+                                        <input type="text" id="provincia" size="20" maxlength="40">
+                                        <br><label for="localidad">Localidad</label>
+                                        <input type="text" id="localidad" size="20" maxlength="40">
+
+                                    </fieldset>
+                                </td>
+                                <td>
+                                    <fieldset>
+
+                                        <legend>Tipo de zona</legend><br>
+                                        <input type="radio" id="costa" name="tipo" checked>
+                                        <label for="Pequeño">Costa</label><br>
+                                        <input type="radio" id="montaña" name="tipo">
+                                        <label for="Mediano">Montaña</label><br>
+                                        <input type="radio" id="interior" name="tipo">
+                                        <label for="Pequeño">Interior</label><br>
+                                        <input type="radio" id="interior" name="tipo">
+                                        <label for="humedales">Humedales</label>
+                                    </fieldset>
+                                </td>
+                            </table>
+                            <table cellpading=5>
+                                <tr><td><strong>3. Imagenes</strong></td></tr>
+                                <td>
+                                    <fieldset>
+                                        <legend>Imagen</legend><br>
+
+                                        <i>*Adjunte si tiene una imagen:</i>
+                                        <form name="subida-imagenes" type="POST" enctype="multipart/formdata">
+                                            <input type="file" name="imagen1" /><br>
+                                            <input type="submit" name="subir-imagen" value="Enviar imagen" />
+                                        </form>
+                                    </fieldset>
+                                </td>
+
+
+
+                            </table>
+    </table>
+    </fieldset>
+    </form>
+    </p>
+    </td>
+    </tr>
+    </table>
+</body>
+</html>

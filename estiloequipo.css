@@ -1,0 +1,52 @@
+﻿html {
+    background-image: url(fondos/grullas.jpg);
+    background-size: cover;
+    align-content: center;
+}
+
+h2 {
+    margin: 100px;
+    text-align: center;
+    align-content: center;
+    background-color: goldenrod;
+    font-size: 40px;
+    border: solid 2px;
+    border-color: azure;
+    width: 600px;
+    padding: 10px;
+}
+
+body {
+    background-color: rgba(237, 231, 246, 0.5);
+    margin: 80px;
+    padding: 10px;
+    align-content: center;
+    text-align: center;
+}
+
+p {
+    font-size: 25px;
+    font-family: 'Lucida Sans';
+    font-weight: 700;
+}
+
+img.right {
+    width: 300px;
+    height: 300px;
+    float: left;
+}
+
+p:first-letter {
+    font-size: 35px;
+}
+
+h1 {
+    font-size: 30px;
+    color: saddlebrown;
+    background-color: blanchedalmond;
+    border: saddlebrown solid 5px;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+}

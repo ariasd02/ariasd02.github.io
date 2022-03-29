@@ -1,0 +1,80 @@
+﻿html {
+    border: 1px;
+    margin: auto;
+    background-image: url(fondos/fondo.jpg);
+    background-size: cover;
+}
+
+body {
+    background-color: rgba(237, 231, 246, 0.5);
+    border: 3px solid;
+    margin: 70px;
+    margin-top: 0%;
+    padding: 10px;
+}
+
+.cabecera {
+    font-size: 40px;
+    color: saddlebrown;
+    border: 2px solid;
+    top: 0;
+    width: auto;
+    height: 60px;
+    margin: 0;
+    background-color: blanchedalmond;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 70px;
+}
+
+h1 {
+    font-size: 30px;
+    color: saddlebrown;
+    background-color: blanchedalmond;
+    border: saddlebrown solid 5px;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    ;
+}
+
+p {
+    font-family: Arial;
+    font-size: 20px;
+    font-family: Verdana;
+    text-align: center;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+}
+
+li {
+    font-family: Arial;
+    font-size: 20px;
+}
+
+.zoom:hover {
+    transform: scale(2.0);
+}
+
+.table, .th, .td {
+    margin: auto;
+    border-collapse: separate;
+    border-spacing: 50px;
+    padding: 60px;
+}
+
+.tab {
+    margin: auto;
+    border: solid 2px;
+    background-color: rgb(72, 173, 240);
+    border-color: black;
+}

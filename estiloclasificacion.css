@@ -1,0 +1,61 @@
+﻿html {
+    background-image: url(fondos/dehesa.jpg);
+    background-size: cover;
+    align-content: center;
+}
+
+body {
+    align-content: center;
+    margin: 70px;
+    background-color: rgba(237, 231, 246, 0.7);
+}
+
+table {
+    border: 2px solid;
+    border-collapse: collapse;
+    padding: 20px;
+    font-family: Arial;
+    font-size: 20px;
+}
+
+p {
+    font-family: Arial;
+    font-size: 20px;
+    text-align: center;
+}
+
+li {
+    font-family: Arial;
+    font-size: 20px;
+}
+
+th, td, tr {
+    border: 2px solid;
+    border-collapse: collapse;
+    padding: 20px;
+    font-family: Arial;
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 30px;
+    color: saddlebrown;
+    background-color: blanchedalmond;
+    border: saddlebrown solid 2px;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+}
+
+img {
+    float: right;
+    border: solid 1px;
+    border-radius: 4px;
+    width: 330px;
+    height: 300px;
+}
+
+.zoom:hover {
+    transform: scale(2.5);
+}
